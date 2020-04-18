@@ -18,7 +18,7 @@ function LunchCheckController($scope) {
 
         if (x=="") {
             message = "Please enter data first";
-        } else if (i < 3) {
+        } else if (i < 4) {
             message = "Enjoy";
         } else  {
             message = "Too much";
